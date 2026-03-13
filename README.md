@@ -14,7 +14,8 @@ This project demonstrates a reusable virtual home network designed to simulate a
 
 ## 🛠️ Technologies & Tools
 * **Hypervisor & Emulation:** VMware Workstation Pro, GNS3
-* **Network Infrastructure:** * Cisco ASAv Firewall (`asav992-32.qcow2`)
+* **Network Infrastructure:**
+  * Cisco ASAv Firewall (`asav992-32.qcow2`)
   * Cisco vIOS L2 Switch (`viosl2-adventerprisek9`)
   * Cisco IOU L3 Router (`i86bi-linux-l3-jk9s-15.0.1.bin`)
 * **Security & Monitoring:** Wazuh (SIEM/XDR) on Amazon Linux 2023, Suricata (IDS) on Ubuntu Server
