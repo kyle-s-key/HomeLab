@@ -1,3 +1,32 @@
+# --- Home Lab Specifics ---
+
+# Exclude large Virtual Machine Disk Images
+*.vmdk
+*.qcow2
+*.ova
+*.iso
+*.vdi
+*.bin
+
+# Exclude GNS3 specific large files & temp data
+*.gns3.backup
+*.gns3.tmp
+project-files/dynamips
+project-files/images
+
+# Exclude Packet Captures (unless they are small samples)
+*.pcap
+*.pcapng
+
+# Exclude Logs
+*.log
+/logs/
+
+# Exclude Environment Variables
+.env
+config.js
+secrets.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
